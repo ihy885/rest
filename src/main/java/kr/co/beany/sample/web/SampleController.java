@@ -179,13 +179,10 @@ public class SampleController {
                System.out.println("Unable to delete. Vo with id " + sampleNo + " not found");
                return new ResponseEntity<SampleVo>(HttpStatus.NOT_FOUND);
            }
+           
+           System.out.println("ASdasdasd");
     
            sampleService.delete(sampleNo);
-           
-           System.out.println("ASdasdasd");
-           System.out.println("ASdasdasd");
-           System.out.println("ASdasdasd");
-           
            return new ResponseEntity<SampleVo>(HttpStatus.OK);
        }
 	   
@@ -203,7 +200,7 @@ public class SampleController {
 
 
 
-	   
+
 
 	   
 	   
