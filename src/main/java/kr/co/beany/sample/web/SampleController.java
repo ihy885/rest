@@ -183,6 +183,9 @@ public class SampleController {
            sampleService.delete(sampleNo);
            
            System.out.println("ASdasdasd");
+           System.out.println("ASdasdasd");
+           System.out.println("ASdasdasd");
+           
            return new ResponseEntity<SampleVo>(HttpStatus.OK);
        }
 	   
